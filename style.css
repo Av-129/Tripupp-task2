@@ -108,7 +108,7 @@ a.btn:hover{
   padding-bottom: 15px;
 }
 
-@media screen and(max-width: 1028px) and (min-device-width: 768px){
+@media screen and(max-width: 1028px){
 	a.btn{
 margin: 10px 25px;
 width: auto;
@@ -122,11 +122,11 @@ border-radius: 20px;
 @media screen and (max-width:768px){
 	.fa-angle-right:before{
 
-color: #fff;
+color:#f8f8fa;
   }
  .fa-angle-left:before{
 
-color: #fff;
+color:#f8f8fa;
   }
   .img-responsive .kk{
   	height: 400px;
@@ -172,7 +172,23 @@ a.btn-first{
 }
 .fa-angle-right:before{
 
-color: #fff;
+color:#f8f8fa;
+  }
+ .fa-angle-left:before{
+
+color:#f8f8fa;
+  }
+
+}
+@media screen and (max-width: 600px){
+	
+.fa-angle-right:before{
+
+color:#f8f8fa;
+  }
+ .fa-angle-left:before{
+
+color:#f8f8fa;
   }
 
 }
@@ -189,7 +205,11 @@ color: #fff;
 }
 .fa-angle-right:before{
 
-color: #fff;
+color:#f8f8fa;
+  }
+ .fa-angle-left:before{
+
+color:#f8f8fa;
   }
 
 }
